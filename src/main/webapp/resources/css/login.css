@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(102, 102, 102);
+}
+
+button:hover {
+  opacity: 1.0;
+}
+
+input[type=text], input[type=password] {
+  width: 24%;
+  padding: 20px 20px;
+  margin: 50px 50;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ccc;
+  color: rgb(255, 0, 0);
+  padding: 20px 20px;
+  margin: 50px 50;
+  border: 10%;
+  cursor: pointer;
+  width: 15%;
+}
+
+img.avatar {
+  max-width: 15%;
+  height: auto;
+  border-radius: 35%;
+}
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: center;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+  .content {
+    width: 100%;
+}
+}

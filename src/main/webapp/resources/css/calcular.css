@@ -1,0 +1,60 @@
+body {
+    font-family: Comic, Helvetica, sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+
+.global{
+   align-items: center;
+   padding: 15px;
+   font-weight: bold;
+   font-size: 16px;
+   background-color: #e3e1ee;
+   width: 8%;
+   margin: 2px 2px;
+   border: 1px solid rgba(204, 204, 204, 0.507);
+}
+
+.green{
+    background-color: #3b3316;
+}
+
+.red{
+    background-color: #212122;
+}
+
+button {
+    background-color: #e3e1ee;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 34%;
+}
+
+@media screen and (max-width: 300px) {
+    .global{
+       display: block;
+    }
+    .row,
+    .result
+    {
+        display: block;
+        width: 100%;
+        align-content: center;
+    }
+}
+
+.result{
+    font-size: 40px;
+    padding: 20px;
+    text-align: right;
+    width: 28%;
+    border: #ccc;
+    background-color:#DCDCDC;
+  }
+
+  row{
+    display: inline-block;
+    width: 100%;
+}
